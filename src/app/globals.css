@@ -2,32 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.ft-heading {
+  margin-bottom: 12.8px;
+  padding-bottom: 12.8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 500;
+  font-size: 18px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.fd-referral {
+  border-color: rgba(255, 255, 255, 0.1);
+  padding-bottom: 23px;
+  padding-top: 23px;
+  margin-bottom: 24px;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+.risk::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: #0049ff;
+  height: 2px;
+  width: 50%;
+  max-width: 100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.risk-list::after {
+  opacity: 1;
+  content: "\e824";
+  font-family: fontello;
+  font-style: normal;
+  font-weight: 400;
+  white-space: nowrap;
+  margin-left: 16px;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+  color: #0049ff;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.risk-item:hover {
+  color: #0049ff;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.risk-active {
+  color: #0049ff;
+}
+.invest-btn {
+  color: #222;
+  background-color: #fff;
+  box-shadow: inset 0 0 0 1px #e0e0e0;
+}
+.deal-desc {
+  display: none;
+}
+.deal:hover .deal-desc {
+  display: block;
 }
