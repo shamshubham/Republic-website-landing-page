@@ -2,6 +2,7 @@ import { HeartIcon, ChatIcon } from "@heroicons/react/solid";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Updates = () => {
+  // Can create this dynamically creating array of objects and mapping over it
   return (
     <div className="max-w-2xl mx-auto">
       {/* <!-- First Item --> */}
