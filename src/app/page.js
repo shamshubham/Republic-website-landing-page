@@ -22,19 +22,6 @@ const myApp = () => {
       <Header></Header>
       <br />
 
-      {/* <nav className="bg-white-100 p-4">
-        <div className="container mx-auto flex items-center">
-          <div className="mr-6 text-lg font-semibold">
-            Pitch
-            <Pitch></Pitch>
-          </div>
-          <div className="text-lg font-semibold">
-            Updates
-            <Updates></Updates>
-          </div>
-        </div>
-      </nav> */}
-
       <div className="bg-white pl-28 pr-28">
         <div className="flex-center mx-auto">
           <div className="flex border-b border-gray-300">

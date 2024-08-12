@@ -38,38 +38,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -113,38 +85,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -220,38 +164,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -296,38 +212,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -372,38 +260,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -448,38 +308,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -524,38 +356,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -600,38 +404,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -677,38 +453,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -784,38 +532,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -860,38 +580,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -937,38 +629,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -1014,38 +678,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -1090,38 +726,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -1167,38 +775,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -1243,38 +823,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -1320,38 +872,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>
@@ -1397,38 +921,10 @@ const Updates = () => {
           </div>
           <div className="flex items-center mt-4 space-x-4">
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-red-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M5 15l7-7 7 7"
-                />
-              </svg> */}
               <HeartIcon className="h-5 w-5 text-gray-500" />
               Like (2)
             </a>
             <a href="#" className="text-sm text-gray-600 flex items-center">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-blue-500 mr-1"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M7 8h10M7 12h4"
-                />
-              </svg> */}
               <ChatIcon className="h-5 w-5 text-gray-500" />
               Comments
             </a>

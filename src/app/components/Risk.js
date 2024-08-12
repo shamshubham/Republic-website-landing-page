@@ -237,7 +237,7 @@ const Risk = () => {
           </h2>
         </div>
         {riskList.map((risk) => (
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4" key={risk.id}>
             <div className="">
               <div key={risk.id}>
                 <a

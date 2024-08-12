@@ -1,7 +1,6 @@
 import BonusPerks from "../components/BonusPerks";
 import DealTerms from "../components/DealTerms";
 import Documents from "../components/Documents";
-import NavPitch from "../components/NavPitch";
 
 const Pitch = () => {
   return (
@@ -333,12 +332,6 @@ const Pitch = () => {
                     shifting terrain, and unpredictable conditions can throw
                     traditional robots off balance.
                   </p>
-                  {/* <div>
-                  <img
-                    src="https://lh7-us.googleusercontent.com/Tcm_tisMQ5c3QOd6nQnnHkg0-zFFU4CThf5nzyLCR6YAdbvbT5a7bxOI9xpeiAvq8CXPke_DGHd6gJ_gvrOJqNJFlNpuW5I_7Dvk6c27OJoOD1iKBHI4IS0uMda3zcx2gBMOaGO30NLrFexoPruiEuk"
-                    className="float-left mr-4 mb-4"
-                  />
-                </div> */}
                   <p className="text-gray-600 mb-3">
                     AvaWatz provides a solution with our leading-edge AI
                     platform that equips robots with the ability to communicate,
@@ -758,64 +751,7 @@ const Pitch = () => {
                     projects, and joint ventures; (iv) execution of the
                     Company’s vision and growth strategy, including with respect
                     to future
-                    {/* <span className="text-blue-500 cursor-pointer">
-                    {isExpanded ? " Read less" : "Read more"}
-                  </span> */}
                   </p>
-                  {/* {isExpanded && (
-                <div className="mt-4">
-                  <p className="mb-4">
-                    Certain information set forth in this presentation contains
-                    “forward-looking information”, including “future-oriented
-                    financial information” and “financial outlook”, under
-                    applicable securities laws (collectively referred to herein
-                    as forward-looking statements). Except for statements of
-                    historical fact, the information contained herein
-                    constitutes forward-looking statements and includes, but is
-                    not limited to, the (i) projected financial performance of
-                    the Company; (ii) completion of, and the use of proceeds
-                    from, the sale of the shares being offered hereunder; (iii)
-                    the expected development of the Company’s business,
-                    projects, and joint ventures; (iv) execution of the
-                    Company’s vision and growth strategy, including with respect
-                    to future M&A activity and global growth; (v) sources and
-                    availability of third-party financing for the Company’s
-                    projects; (vi) completion of the Company’s projects that are
-                    currently underway, in development or otherwise under
-                    consideration; (vi) renewal of the Company’s current
-                    customer, supplier and other material agreements; and (vii)
-                    future liquidity, working capital, and capital requirements.
-                    Forward-looking statements are provided to allow potential
-                    investors the opportunity to understand management’s beliefs
-                    and opinions in respect of the future so that they may use
-                    such beliefs and opinions as one factor in evaluating an
-                    investment.
-                  </p>
-                  <p className="mb-4">
-                    These statements are not guarantees of future performance
-                    and undue reliance should not be placed on them. Such
-                    forward-looking statements necessarily involve known and
-                    unknown risks and uncertainties, which may cause actual
-                    performance and financial results in future periods to
-                    differ materially from any projections of future performance
-                    or result expressed or implied by such forward-looking
-                    statements.
-                  </p>
-                  <p>
-                    Although forward-looking statements contained in this
-                    presentation are based upon what management of the Company
-                    believes are reasonable assumptions, there can be no
-                    assurance that forward-looking statements will prove to be
-                    accurate, as actual results and future events could differ
-                    materially from those anticipated in such statements. The
-                    Company undertakes no obligation to update forward-looking
-                    statements if circumstances or management’s estimates or
-                    opinions should change except as required by applicable
-                    securities laws. The reader is cautioned not to place undue
-                    reliance on forward-looking statements.
-                  </p>
-                </div>
-                )} */}
                 </div>
               </div>
             </section>
@@ -992,12 +928,6 @@ const Pitch = () => {
                     Headquarters
                   </div>
                   <div className="text-xl text-gray-800 position: relative">
-                    {/* <img
-                      alt="Google Map location of Avawatz"
-                      title="Google Map location of Avawatz"
-                      src="https://maps.googleapis.com/maps/api/staticmap?center=3662%2BWest%2BCamp%2BWisdom%2BRoad%2CDallas%2CTX&amp;format=png&amp;key=AIzaSyBSAkS8gvhmvxYO9XQOuP1ows6mbvx_jAE&amp;maptype=roadmap&amp;markers=size%3Asmall%7Ccolor%3A0xff0000%7Clabel%3A1%7C3662%2BWest%2BCamp%2BWisdom%2BRoad%2CDallas%2CTX&amp;scale=2&amp;size=360x165&amp;visual_refresh=true&amp;zoom=13&amp;signature=3ufyyclt_Zb75ZSHVScmr5yEnLI="
-                      className="w-full h-auto"
-                    /> */}
                     <div
                       style={{
                         width: "100%",
@@ -1039,96 +969,101 @@ const Pitch = () => {
 
           {/* Avawatz team */}
           <div>
-            <section id="team" class="js-section offerings-show__section py-12">
-              <div class="container mx-auto px-4">
-                <div class="text-center mb-12">
-                  <h2 class="mb-4">
-                    <div class="text-gray-600 text-2xl font-semibold">
+            <section
+              id="team"
+              className="js-section offerings-show__section py-12"
+            >
+              <div className="container mx-auto px-4">
+                <div className="text-center mb-12">
+                  <h2 className="mb-4">
+                    <div className="text-gray-600 text-2xl font-semibold">
                       Avawatz Team
                     </div>
-                    <div class="text-gray-500 text-base font-light mt-2">
+                    <div className="text-gray-500 text-base font-light mt-2">
                       Everyone helping build Avawatz, not limited to employees
                     </div>
                   </h2>
                   <hr className="w-24 mx-auto border-b-2 border-blue-500 mt-2" />
                 </div>
                 <div
-                  class="offerings-show-team_section"
+                  className="offerings-show-team_section"
                   data-rc="offerings/show/team_section"
                 >
                   <div
-                    class="js-sort_data"
+                    className="js-sort_data"
                     data-featured-placeholder-klass="offerings-show-team_section__featured_team_member mb-4 border border-gray-300"
                     data-placeholder-klass="offerings-show-team_section__team_member mb-4 border border-gray-300"
                   ></div>
-                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="team-member">
-                      <div class="text-center">
-                        <div class="avatar avatar--large offerings-show-team_section__avatar_header mb-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="team-member">
+                      <div className="text-center">
+                        <div className="avatar avatar--large offerings-show-team_section__avatar_header mb-6">
                           <img
                             alt="Profile picture of Rajini Anachi"
                             title="Rajini Anachi"
                             src="https://uploads.republic.com/p/roles/team_members/avatars/large/000/019/586/19586-1708105097-b598900ea74dd0b98c591810d26b3bdc0e1c0665.jpg"
-                            class="rounded-md w-32 h-32 object-cover mx-auto"
+                            className="rounded-md w-32 h-32 object-cover mx-auto"
                           />
                         </div>
-                        <div class="text-xl font-semibold">Rajini Anachi</div>
-                        <div class="font-light text-lg text-gray-700 mt-2">
+                        <div className="text-xl font-semibold">
+                          Rajini Anachi
+                        </div>
+                        <div className="font-light text-lg text-gray-700 mt-2">
                           Founder
                         </div>
-                        <div class="text-sm font-light mt-4 leading-relaxed px-2">
+                        <div className="text-sm font-light mt-4 leading-relaxed px-2">
                           2x founder, previously founded CyGlass, which was
                           acquired by Nominet in 2020. Focused on bringing
                           tremendous value to AvaWatz customers, employees, and
                           investors.
                         </div>
-                        <div class="mt-4">
+                        <div className="mt-4">
                           <a
                             target="_blank"
-                            class="text-blue-500 hover:underline"
+                            className="text-blue-500 hover:underline"
                             href="https://www.linkedin.com/in/rajini-anachi/"
                           >
-                            <i class="icon-linkedin"></i>
+                            <i className="icon-linkedin"></i>
                           </a>
                         </div>
                       </div>
                     </div>
-                    <div class="team-member">
-                      <div class="text-center">
-                        <div class="avatar avatar--large offerings-show-team_section__avatar_header mb-6">
+                    <div className="team-member">
+                      <div className="text-center">
+                        <div className="avatar avatar--large offerings-show-team_section__avatar_header mb-6">
                           <img
                             alt="Profile picture of Bala Jana"
                             title="Bala Jana"
                             src="https://uploads.republic.com/p/roles/team_members/avatars/large/000/020/313/20313-1707608322-2e202f3e82387bd8b0fa4b7cad6a47e105918f87.JPG"
-                            class="rounded-md w-32 h-32 object-cover mx-auto"
+                            className="rounded-md w-32 h-32 object-cover mx-auto"
                           />
                         </div>
-                        <div class="text-xl font-semibold">Bala Jana</div>
-                        <div class="font-light text-lg text-gray-700 mt-2">
+                        <div className="text-xl font-semibold">Bala Jana</div>
+                        <div className="font-light text-lg text-gray-700 mt-2">
                           Co-Founder, Board Member
                         </div>
-                        <div class="text-sm font-light mt-4 leading-relaxed px-2">
+                        <div className="text-sm font-light mt-4 leading-relaxed px-2">
                           Investor and early team member at several start-ups
                           acquired by Fortune 500 companies. Leading product
                           innovation, commercialization, and product-market fit.
                         </div>
                       </div>
                     </div>
-                    <div class="team-member">
-                      <div class="text-center">
-                        <div class="avatar avatar--large offerings-show-team_section__avatar_header mb-6">
+                    <div className="team-member">
+                      <div className="text-center">
+                        <div className="avatar avatar--large offerings-show-team_section__avatar_header mb-6">
                           <img
                             alt="Profile picture of Bala Jana"
                             title="Bala Jana"
                             src="https://uploads.republic.com/p/roles/team_members/avatars/large/000/020/550/20550-1708105159-42f8a94e3b29f36dfac66621550b29c71e8f6ac4.jpg"
-                            class="rounded-md w-32 h-32 object-cover mx-auto"
+                            className="rounded-md w-32 h-32 object-cover mx-auto"
                           />
                         </div>
-                        <div class="text-xl font-semibold">JR May</div>
-                        <div class="font-light text-lg text-gray-700 mt-2">
+                        <div className="text-xl font-semibold">JR May</div>
+                        <div className="font-light text-lg text-gray-700 mt-2">
                           Business Development & Sales
                         </div>
-                        <div class="text-sm font-light mt-4 leading-relaxed px-2">
+                        <div className="text-sm font-light mt-4 leading-relaxed px-2">
                           Proven expertise in DoD and commercial sales. Brings
                           an extensive network of connections for direct sales,
                           partnerships, and rapidly scaling for growth.
@@ -1137,11 +1072,10 @@ const Pitch = () => {
                         </div>
                       </div>
                     </div>
-                    {/* <!-- Continue adding team members as needed --> */}
                   </div>
-                  <div class="flex justify-center mt-12">
+                  <div className="flex justify-center mt-12">
                     <a
-                      class="bg-gray-200 text-gray-800 px-6 py-3 rounded-md"
+                      className="bg-gray-200 text-gray-800 px-6 py-3 rounded-md"
                       href="#"
                     >
                       5 more team members
@@ -1153,38 +1087,38 @@ const Pitch = () => {
           </div>
 
           {/* Press */}
-          <div class="container mx-auto max-w-screen-xl px-4 py-8">
-            <div class="text-center mb-8">
-              <h2 class="text-gray-600 text-2xl font-extrabold">Press</h2>
+          <div className="container mx-auto max-w-screen-xl px-4 py-8">
+            <div className="text-center mb-8">
+              <h2 className="text-gray-600 text-2xl font-extrabold">Press</h2>
               <hr className="w-12 mx-auto border-b-2 border-blue-500 mt-2" />
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
                 <a
                   target="_blank"
                   rel="nofollow"
                   href="https://finance.yahoo.com/news/avawatz-patents-falcon-trust-assessment-125100328.html"
-                  class="block hover:shadow-lg transition-shadow duration-300"
+                  className="block hover:shadow-lg transition-shadow duration-300"
                 >
-                  <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
+                  <div className="flex items-center space-x-4">
+                    <div className="flex-shrink-0">
                       <img
                         src="https://uploads.republic.com/p/embedly_extracts/favicons/medium/000/041/135/41135-1708026211-8b6aff9acb4019d5e44383f9a4e911c15dc0aa96."
                         alt="Yahoo Finance"
-                        class="h-6"
+                        className="h-6"
                       />
                     </div>
-                    <div class="flex-1">
-                      <h3 class="text-lg font-medium text-gray-800">
+                    <div className="flex-1">
+                      <h3 className="text-lg font-medium text-gray-800">
                         AvaWatz Patents FALCON, A New Trust Assessment and
                         Auto-C...
                       </h3>
-                      <div class="text-gray-500 text-sm mt-1 flex items-center space-x-1">
+                      <div className="text-gray-500 text-sm mt-1 flex items-center space-x-1">
                         <span>Yahoo Finance</span>
-                        <span class="text-gray-400">·</span>
+                        <span className="text-gray-400">·</span>
                         <span>Sep 12, 2023</span>
                       </div>
-                      <p class="text-gray-600 text-sm mt-2 hidden sm:block">
+                      <p className="text-gray-600 text-sm mt-2 hidden sm:block">
                         AvaWatz Company ("AvaWatz"), a technology company that
                         supports collaboration among robots, is pleased to
                         announce the fi...
@@ -1194,32 +1128,32 @@ const Pitch = () => {
                 </a>
               </div>
 
-              <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
+              <div className="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
                 <a
                   target="_blank"
                   rel="nofollow"
                   href="https://www.benzinga.com/startups/23/05/32519263/the-startup-pioneering-the-all-robot-workforce-with-colloborative-drones-and-robots"
-                  class="block hover:shadow-lg transition-shadow duration-300"
+                  className="block hover:shadow-lg transition-shadow duration-300"
                 >
-                  <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
+                  <div className="flex items-center space-x-4">
+                    <div className="flex-shrink-0">
                       <img
                         src="https://uploads.republic.com/p/embedly_extracts/favicons/medium/000/041/137/41137-1708026267-b8b25c8947d0e72efc2831187ba286421ede46d6."
                         alt="Benzinga"
-                        class="h-6"
+                        className="h-6"
                       />
                     </div>
-                    <div class="flex-1">
-                      <h3 class="text-lg font-medium text-gray-800">
+                    <div className="flex-1">
+                      <h3 className="text-lg font-medium text-gray-800">
                         The Startup Pioneering The All-Robot Workforce With
                         Colla...
                       </h3>
-                      <div class="text-gray-500 text-sm mt-1 flex items-center space-x-1">
+                      <div className="text-gray-500 text-sm mt-1 flex items-center space-x-1">
                         <span>Benzinga</span>
-                        <span class="text-gray-400">·</span>
+                        <span className="text-gray-400">·</span>
                         <span>May 22, 2023</span>
                       </div>
-                      <p class="text-gray-600 text-sm mt-2 hidden sm:block">
+                      <p className="text-gray-600 text-sm mt-2 hidden sm:block">
                         On the surface, everything about AvaWatz sounds like
                         something out of a science fiction movie. Through the
                         use of decisio...
@@ -1229,32 +1163,32 @@ const Pitch = () => {
                 </a>
               </div>
 
-              <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
+              <div className="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
                 <a
                   target="_blank"
                   rel="nofollow"
                   href="https://finance.yahoo.com/news/avawatz-patents-falcon-trust-assessment-125100328.html"
-                  class="block hover:shadow-lg transition-shadow duration-300"
+                  className="block hover:shadow-lg transition-shadow duration-300"
                 >
-                  <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
+                  <div className="flex items-center space-x-4">
+                    <div className="flex-shrink-0">
                       <img
                         src="https://uploads.republic.com/p/embedly_extracts/favicons/medium/000/041/135/41135-1708026211-8b6aff9acb4019d5e44383f9a4e911c15dc0aa96."
                         alt="Yahoo Finance"
-                        class="h-6"
+                        className="h-6"
                       />
                     </div>
-                    <div class="flex-1">
-                      <h3 class="text-lg font-medium text-gray-800">
+                    <div className="flex-1">
+                      <h3 className="text-lg font-medium text-gray-800">
                         AvaWatz Patents FALCON, A New Trust Assessment and
                         Auto-C...
                       </h3>
-                      <div class="text-gray-500 text-sm mt-1 flex items-center space-x-1">
+                      <div className="text-gray-500 text-sm mt-1 flex items-center space-x-1">
                         <span>Yahoo Finance</span>
-                        <span class="text-gray-400">·</span>
+                        <span className="text-gray-400">·</span>
                         <span>Sep 12, 2023</span>
                       </div>
-                      <p class="text-gray-600 text-sm mt-2 hidden sm:block">
+                      <p className="text-gray-600 text-sm mt-2 hidden sm:block">
                         AvaWatz Company ("AvaWatz"), a technology company that
                         supports collaboration among robots, is pleased to
                         announce the fi...
@@ -1264,32 +1198,32 @@ const Pitch = () => {
                 </a>
               </div>
 
-              <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
+              <div className="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
                 <a
                   target="_blank"
                   rel="nofollow"
                   href="https://finance.yahoo.com/news/avawatz-patents-falcon-trust-assessment-125100328.html"
-                  class="block hover:shadow-lg transition-shadow duration-300"
+                  className="block hover:shadow-lg transition-shadow duration-300"
                 >
-                  <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
+                  <div className="flex items-center space-x-4">
+                    <div className="flex-shrink-0">
                       <img
                         src="https://uploads.republic.com/p/embedly_extracts/favicons/medium/000/041/135/41135-1708026211-8b6aff9acb4019d5e44383f9a4e911c15dc0aa96."
                         alt="Yahoo Finance"
-                        class="h-6"
+                        className="h-6"
                       />
                     </div>
-                    <div class="flex-1">
-                      <h3 class="text-lg font-medium text-gray-800">
+                    <div className="flex-1">
+                      <h3 className="text-lg font-medium text-gray-800">
                         AvaWatz Patents FALCON, A New Trust Assessment and
                         Auto-C...
                       </h3>
-                      <div class="text-gray-500 text-sm mt-1 flex items-center space-x-1">
+                      <div className="text-gray-500 text-sm mt-1 flex items-center space-x-1">
                         <span>Yahoo Finance</span>
-                        <span class="text-gray-400">·</span>
+                        <span className="text-gray-400">·</span>
                         <span>Sep 12, 2023</span>
                       </div>
-                      <p class="text-gray-600 text-sm mt-2 hidden sm:block">
+                      <p className="text-gray-600 text-sm mt-2 hidden sm:block">
                         AvaWatz Company ("AvaWatz"), a technology company that
                         supports collaboration among robots, is pleased to
                         announce the fi...
@@ -1299,32 +1233,32 @@ const Pitch = () => {
                 </a>
               </div>
 
-              <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
+              <div className="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
                 <a
                   target="_blank"
                   rel="nofollow"
                   href="https://finance.yahoo.com/news/avawatz-patents-falcon-trust-assessment-125100328.html"
-                  class="block hover:shadow-lg transition-shadow duration-300"
+                  className="block hover:shadow-lg transition-shadow duration-300"
                 >
-                  <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
+                  <div className="flex items-center space-x-4">
+                    <div className="flex-shrink-0">
                       <img
                         src="https://uploads.republic.com/p/embedly_extracts/favicons/medium/000/041/135/41135-1708026211-8b6aff9acb4019d5e44383f9a4e911c15dc0aa96."
                         alt="Yahoo Finance"
-                        class="h-6"
+                        className="h-6"
                       />
                     </div>
-                    <div class="flex-1">
-                      <h3 class="text-lg font-medium text-gray-800">
+                    <div className="flex-1">
+                      <h3 className="text-lg font-medium text-gray-800">
                         AvaWatz Patents FALCON, A New Trust Assessment and
                         Auto-C...
                       </h3>
-                      <div class="text-gray-500 text-sm mt-1 flex items-center space-x-1">
+                      <div className="text-gray-500 text-sm mt-1 flex items-center space-x-1">
                         <span>Yahoo Finance</span>
-                        <span class="text-gray-400">·</span>
+                        <span className="text-gray-400">·</span>
                         <span>Sep 12, 2023</span>
                       </div>
-                      <p class="text-gray-600 text-sm mt-2 hidden sm:block">
+                      <p className="text-gray-600 text-sm mt-2 hidden sm:block">
                         AvaWatz Company ("AvaWatz"), a technology company that
                         supports collaboration among robots, is pleased to
                         announce the fi...
@@ -1334,32 +1268,32 @@ const Pitch = () => {
                 </a>
               </div>
 
-              <div class="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
+              <div className="bg-white p-6 border border-gray-200 rounded-lg shadow-md">
                 <a
                   target="_blank"
                   rel="nofollow"
                   href="https://finance.yahoo.com/news/avawatz-patents-falcon-trust-assessment-125100328.html"
-                  class="block hover:shadow-lg transition-shadow duration-300"
+                  className="block hover:shadow-lg transition-shadow duration-300"
                 >
-                  <div class="flex items-center space-x-4">
-                    <div class="flex-shrink-0">
+                  <div className="flex items-center space-x-4">
+                    <div className="flex-shrink-0">
                       <img
                         src="https://uploads.republic.com/p/embedly_extracts/favicons/medium/000/041/135/41135-1708026211-8b6aff9acb4019d5e44383f9a4e911c15dc0aa96."
                         alt="Yahoo Finance"
-                        class="h-6"
+                        className="h-6"
                       />
                     </div>
-                    <div class="flex-1">
-                      <h3 class="text-lg font-medium text-gray-800">
+                    <div className="flex-1">
+                      <h3 className="text-lg font-medium text-gray-800">
                         AvaWatz Patents FALCON, A New Trust Assessment and
                         Auto-C...
                       </h3>
-                      <div class="text-gray-500 text-sm mt-1 flex items-center space-x-1">
+                      <div className="text-gray-500 text-sm mt-1 flex items-center space-x-1">
                         <span>Yahoo Finance</span>
-                        <span class="text-gray-400">·</span>
+                        <span className="text-gray-400">·</span>
                         <span>Sep 12, 2023</span>
                       </div>
-                      <p class="text-gray-600 text-sm mt-2 hidden sm:block">
+                      <p className="text-gray-600 text-sm mt-2 hidden sm:block">
                         AvaWatz Company ("AvaWatz"), a technology company that
                         supports collaboration among robots, is pleased to
                         announce the fi...
@@ -1369,8 +1303,8 @@ const Pitch = () => {
                 </a>
               </div>
             </div>
-            <div class="text-center mt-8">
-              <button class="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">
+            <div className="text-center mt-8">
+              <button className="bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600">
                 Show all
               </button>
             </div>
